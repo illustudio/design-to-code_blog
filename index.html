@@ -16,9 +16,12 @@
 
     <!-- 스타일시트 추가 -->
     <link rel="stylesheet" href="style.css">
+    <!-- feather icon -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
 <body>
     <div class="site__container">
+        <!-- header영역 -->
         <header class="site__header">
             <div class="nav">
                 <h1 class="logo">blog<span>story</span></h1>
@@ -38,6 +41,26 @@
                 </ul>
             </div>
         </header>
+        <!-- post 영역 -->
+        <main class="post">
+            <header class="post-header">
+                <span class="post-header__category">diary</span>
+                <h2 class="post-header__title">많은 하나에 별이 나는 오면 별 흙으로 남은 까닭입니다.</h2>
+                <ul class="post-header__info">
+                    <li class="post-header__date">
+                        <i data-feather="calendar"></i>
+                        2022.4.30
+                    </li>
+                    <li class="post-header__author">
+                        <i data-feather="user"></i>
+                        BlogStory
+                    </li>
+                </ul>
+            </header>
+        </main>
     </div>
+    <script>
+        feather.replace()
+    </script>
 </body>
 </html>

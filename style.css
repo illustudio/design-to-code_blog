@@ -8,10 +8,12 @@ html, body {
   font-family: 'Montserrat', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
 }
 
+/* header,navigation 영역 */
 .nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 64px;
 }
 
 .logo {
@@ -45,4 +47,31 @@ html, body {
 }
 .nav .nav-menu .contact a{
   color:white;
+}
+
+/* post 영역 */
+.post-header__category{
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom:10px;
+}
+.post-header__title{
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+.post-header__info{
+  display: flex;
+  list-style: none;  
+  color: #4f46e5;
+}
+.post-header__info li{
+  display: flex;
+  align-items: center;
+  margin-right:24px;
+
+}
+.feather{
+  margin-right: 8px;
 }
