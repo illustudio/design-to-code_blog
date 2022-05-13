@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Story</title>
+
+    <!-- 구글폰트 - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+    <!-- Pretendard 폰트 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+
+    <!-- 스타일시트 추가 -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- feather icon -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+    <div class="site__container">
+        <!-- header영역 -->
+        <header class="site__header">
+            <div class="nav">
+                <h1 class="logo">blog<span>story</span></h1>
+                <ul class="nav-menu"> 
+                    <li class="nav-menu__item">
+                        <a href="#">home</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#">about</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#">blog</a>
+                    </li>
+                    <li class="nav-menu__item contact">
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- post 영역 -->
+        <main class="post">
+            <!-- 헤더영역 -->
+            <header class="post-header">
+                <span class="post-header__category">diary</span>
+                <h2 class="post-header__title">많은 하나에 별이 나는 오면 별 흙으로 남은 까닭입니다.</h2>
+                <ul class="post-header__info">
+                    <li class="post-header__date">
+                        <i data-feather="calendar"></i>
+                        2022.4.30
+                    </li>
+                    <li class="post-header__author">
+                        <i data-feather="user"></i>
+                        BlogStory
+                    </li>
+                </ul>
+            </header>
+        </main>
+    </div>
+    <!-- feather icon -->
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
