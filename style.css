@@ -398,7 +398,7 @@ html, body {
 }
 .floating.left .buttons{
   display: flex;
-  flex-flow: column;  
+  flex-direction: column;
   gap:8px;
   max-height: calc(100vh - 100px)
 }
