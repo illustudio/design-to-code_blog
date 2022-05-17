@@ -385,20 +385,19 @@ html, body {
 
 .floating.left{
   position: sticky;
-  top:32px; 
+  top:32px;
   padding: 16px;
   background-color: white;
   border-radius: 8px;
   filter: drop-shadow(0px 4px 4px #d2dae5);
   order: -1;
   margin-right:32px;
-  flex-grow:1;
-  flex-basis: 76px;
+  width: 76px;
   align-self: start;
 }
 .floating.left .buttons{
   display: flex;
-  flex-flow: column;  
+  flex-direction: column;
   gap:8px;
   max-height: calc(100vh - 100px)
 }
@@ -407,7 +406,7 @@ html, body {
   border:0;
   background-color: transparent;
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 .floating.left .buttons .feather-message-circle {
   color:#4f46e5;
